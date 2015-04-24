@@ -1,5 +1,5 @@
 # SC To Top
 
-## A simple WordPress plugin to scroll pages to the top
+### A simple WordPress plugin to scroll pages to the top
 
-Just install and enjoy!
+#### Just install and enjoy!
