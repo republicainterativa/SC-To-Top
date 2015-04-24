@@ -1,0 +1,20 @@
+.sc-to-top {
+	position: fixed;
+	z-index: 99999;
+	width: 50px;
+	height: 50px;
+	background: url(../img/arrow.png) center center no-repeat #000;
+	bottom: 10px;
+	right: 10px;
+	-webkit-transition: 0.3s;
+	   -moz-transition: 0.3s;
+	    -ms-transition: 0.3s;
+	     -o-transition: 0.3s;
+	     	transition: 0.3s;
+	-webkit-opacity: 0.7;
+			opacity: 0.7;
+}
+.sc-to-top:hover {	
+	-webkit-opacity: 1;
+			opacity: 1;
+}
