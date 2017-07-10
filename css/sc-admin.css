@@ -1,0 +1,12 @@
+.sc-to-top-page input[type="radio"] {
+    margin-left: 5px;
+    margin-right: -5px;
+}
+.sc-to-top-page .select-icon {
+    text-decoration: none;
+    color: #000;
+}
+.sc-to-top-page .select-icon.selected-icon {
+    text-decoration: none;
+    color: #0085ba;
+}
