@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: sergiuscosta
-Donate link: http://sergiocosta.net.br/
+Donate link: http://republicainterativa.com.br/
 Tags: scroll to top
 Requires at least: 3.0.1
-Tested up to: 4.2
-Stable tag: 4.2
+Tested up to: 4.8
+Stable tag: 4.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,10 +16,11 @@ A simple plugin to scroll to the top
 
 == Installation ==
 
-1. Make sure you have jQuery installed and working
-2. Upload the folder `sc-to-top` to the `/wp-content/plugins/` directory
-3. Activate the plugin through the 'Plugins' menu in WordPress
-4. Enjoy!
+1. Make sure you have jQuery installed and working properly
+1. Upload the folder `sc-to-top` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Go to plugin's options page and choose your configuration
+1. Enjoy!
 
 == Frequently Asked Questions ==
 
@@ -47,7 +48,10 @@ Yes, of course you should! Just email, me: sergio.costa@outlook.com ! Thank you!
 = 1.1 =
 * Tested up to WordPress 4.2
 
+= 2.0 =
+* Now you can also choose the background color, the color of the icon and the icon itself
+
 == Upgrade Notice ==
 
-= 1.0 =
-No updates available
+= 3.0 =
+soon
