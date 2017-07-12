@@ -42,6 +42,9 @@ Yes, of course you should! Just email, me: sergio.costa@outlook.com ! Thank you!
 
 == Changelog ==
 
+= 2.2 =
+* The plugin options page is now fully responsive (bootstrap styling)
+
 = 2.1 =
 * You are able to set the title attribute to the button
 
