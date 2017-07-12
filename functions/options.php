@@ -87,7 +87,7 @@ function sc_to_top_settings_page() { ?>
                     </td>
                 </tr>
                 <tr valign="top">
-                    <th scope="row">Title attribute</th>
+                    <th scope="row">Custom CSS</th>
                     <td>
                         <textarea rows="8" style="width: 500px" id="cs_css" name="sc_css" placeholder=".sc-to-top i { font-size: 22px; }"><?php echo esc_attr( get_option('sc_css') ); ?></textarea>
                         <br />
