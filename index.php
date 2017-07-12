@@ -28,6 +28,9 @@ function my_enqueue($hook) {
     wp_register_style('sc_fontello', plugins_url('css/fontello.css',__FILE__));
     wp_enqueue_style('sc_fontello');
 
+    wp_register_style('sc_bootstrap', plugins_url('css/sc-bootstrap.css',__FILE__));
+    wp_enqueue_style('sc_bootstrap');
+
     wp_register_style('sc_style', plugins_url('css/sc-admin.css',__FILE__));
     wp_enqueue_style('sc_style');
 
