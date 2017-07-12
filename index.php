@@ -3,7 +3,7 @@
  * Plugin Name: SC To Top
  * Plugin URI: https://profiles.wordpress.org/sergiuscosta
  * Description: A button that allows the users to reach the top of the page
- * Version: 2.0
+ * Version: 2.1
  * Author: Sergio Costa
  * Author URI: http://republicainterativa.com.br/
  * Text Domain: sctotop
@@ -45,8 +45,8 @@ function sctotop_btn()
         }
     </style> <?php
     if (get_option('sc_icon')) { ?>
-        <a href="#" class="sc-to-top">
-            <i class="<?php echo get_option('sc_icon'); ?>"></i>
+        <a href="#" class="sc-to-top" title="<?php echo get_option( 'sc_titleattr' ); ?>">
+            <i class="<?php echo get_option( 'sc_icon' ); ?>"></i>
         </a> <?php
     } else { ?>
         <a href="#" class="sc-to-top no-icon"></a> <?php

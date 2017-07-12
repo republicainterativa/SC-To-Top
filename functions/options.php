@@ -18,6 +18,7 @@ function register_sc_to_top_settings() {
     register_setting( 'sc-to-top-settings-group', 'sc_color' );
     register_setting( 'sc-to-top-settings-group', 'sc_icon_color' );
     register_setting( 'sc-to-top-settings-group', 'sc_icon' );
+    register_setting( 'sc-to-top-settings-group', 'sc_titleattr' );
 }
 
 function sc_to_top_settings_page() { ?>
@@ -76,6 +77,12 @@ function sc_to_top_settings_page() { ?>
                         <a href="javascript:void(0)" class="select-icon">
                             <i class="icon-up-circled"></i>
                         </a>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row">Title attribute</th>
+                    <td>
+                        <input type="text" name="sc_titleattr" value="<?php echo esc_attr( get_option('sc_titleattr') ); ?>" />
                     </td>
                 </tr>
             </table>

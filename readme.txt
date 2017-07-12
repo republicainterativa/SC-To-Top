@@ -42,14 +42,17 @@ Yes, of course you should! Just email, me: sergio.costa@outlook.com ! Thank you!
 
 == Changelog ==
 
-= 1.0 =
-* Plugin created
+= 2.1 =
+* You are able to set the title attribute to the button
+
+= 2.0 =
+* Now you can also choose the background color, the color of the icon and the icon itself
 
 = 1.1 =
 * Tested up to WordPress 4.2
 
-= 2.0 =
-* Now you can also choose the background color, the color of the icon and the icon itself
+= 1.0 =
+* Plugin created
 
 == Upgrade Notice ==
 

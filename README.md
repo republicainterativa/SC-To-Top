@@ -1,10 +1,14 @@
-# SC To Top 2.0
+# SC To Top 2.1
 
 ### A simple WordPress plugin to scroll pages to the top
 
 #### Just install and enjoy!
 
-#### Now you can also choose the background color, the icon color and the icon itself
+#### Now you can also:
+ 1. Set background color
+ 1. Set icon color
+ 1. Set the icon itself
+ 1. Set title attribute to the link
 
 This plugin uses [Fontello](http://fontello.com/)
 
@@ -12,7 +16,6 @@ This plugin uses [Fontello](http://fontello.com/)
 [SC To Top - You can download from the WordPress Plugins Repository](https://wordpress.org/plugins/sc-to-top/)
 
 ### Next updates
-* Alt text string
 * Custom CSS
 
 ## License
