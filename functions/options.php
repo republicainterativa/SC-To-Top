@@ -19,6 +19,7 @@ function register_sc_to_top_settings() {
     register_setting( 'sc-to-top-settings-group', 'sc_icon_color' );
     register_setting( 'sc-to-top-settings-group', 'sc_icon' );
     register_setting( 'sc-to-top-settings-group', 'sc_titleattr' );
+    register_setting( 'sc-to-top-settings-group', 'sc_css' );
 }
 
 function sc_to_top_settings_page() { ?>
@@ -83,6 +84,14 @@ function sc_to_top_settings_page() { ?>
                     <th scope="row">Title attribute</th>
                     <td>
                         <input type="text" name="sc_titleattr" value="<?php echo esc_attr( get_option('sc_titleattr') ); ?>" />
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row">Title attribute</th>
+                    <td>
+                        <textarea rows="8" style="width: 500px" id="cs_css" name="sc_css" placeholder=".sc-to-top i { font-size: 22px; }"><?php echo esc_attr( get_option('sc_css') ); ?></textarea>
+                        <br />
+                        <p><i><b>(Advanced)</b></i> You must use the "<i><b> .sc-to-top </b></i>" or "<i><b> .sc-to-top i </b></i>" selectors</p>
                     </td>
                 </tr>
             </table>

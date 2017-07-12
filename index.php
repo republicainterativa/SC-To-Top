@@ -42,7 +42,10 @@ function sctotop_btn()
         .sc-to-top {
             background-color: <?php echo get_option('sc_color'); ?>;
             color: <?php echo get_option( 'sc_icon_color' ); ?>;
-        }
+        } <?php
+        if ( get_option( 'sc_css' ) ) {
+            echo get_option( 'sc_css' );
+        } ?>
     </style> <?php
     if (get_option('sc_icon')) { ?>
         <a href="#" class="sc-to-top" title="<?php echo get_option( 'sc_titleattr' ); ?>">
