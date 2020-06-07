@@ -1,4 +1,4 @@
-# SC To Top 2.2
+# SC To Top 2.2 (Version 3.0 coming soon)
 
 ### A simple WordPress plugin to scroll pages to the top
 
